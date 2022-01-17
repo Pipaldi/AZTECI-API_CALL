@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDFE4C132795F9AD007B10F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFE4C122795F9AD007B10F2 /* AppDelegate.swift */; };
+		EDFE4C152795F9AD007B10F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFE4C142795F9AD007B10F2 /* SceneDelegate.swift */; };
+		EDFE4C172795F9AD007B10F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFE4C162795F9AD007B10F2 /* ViewController.swift */; };
+		EDFE4C1A2795F9AD007B10F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDFE4C182795F9AD007B10F2 /* Main.storyboard */; };
+		EDFE4C1D2795F9AD007B10F2 /* AZTECI_LFAG.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EDFE4C1B2795F9AD007B10F2 /* AZTECI_LFAG.xcdatamodeld */; };
+		EDFE4C1F2795F9B1007B10F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDFE4C1E2795F9B1007B10F2 /* Assets.xcassets */; };
+		EDFE4C222795F9B1007B10F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDFE4C202795F9B1007B10F2 /* LaunchScreen.storyboard */; };
+		EDFE4C2D2795F9B1007B10F2 /* AZTECI_LFAGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFE4C2C2795F9B1007B10F2 /* AZTECI_LFAGTests.swift */; };
+		EDFE4C382795F9B1007B10F2 /* AZTECI_LFAGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFE4C372795F9B1007B10F2 /* AZTECI_LFAGUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDFE4C292795F9B1007B10F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDFE4C072795F9AD007B10F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDFE4C0E2795F9AD007B10F2;
+			remoteInfo = "AZTECI-LFAG";
+		};
+		EDFE4C342795F9B1007B10F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDFE4C072795F9AD007B10F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDFE4C0E2795F9AD007B10F2;
+			remoteInfo = "AZTECI-LFAG";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDFE4C0F2795F9AD007B10F2 /* AZTECI-LFAG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AZTECI-LFAG.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDFE4C122795F9AD007B10F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDFE4C142795F9AD007B10F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EDFE4C162795F9AD007B10F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDFE4C192795F9AD007B10F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDFE4C1C2795F9AD007B10F2 /* AZTECI_LFAG.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AZTECI_LFAG.xcdatamodel; sourceTree = "<group>"; };
+		EDFE4C1E2795F9B1007B10F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDFE4C212795F9B1007B10F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDFE4C232795F9B1007B10F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDFE4C282795F9B1007B10F2 /* AZTECI-LFAGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AZTECI-LFAGTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDFE4C2C2795F9B1007B10F2 /* AZTECI_LFAGTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZTECI_LFAGTests.swift; sourceTree = "<group>"; };
+		EDFE4C2E2795F9B1007B10F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDFE4C332795F9B1007B10F2 /* AZTECI-LFAGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AZTECI-LFAGUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDFE4C372795F9B1007B10F2 /* AZTECI_LFAGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZTECI_LFAGUITests.swift; sourceTree = "<group>"; };
+		EDFE4C392795F9B1007B10F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDFE4C0C2795F9AD007B10F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDFE4C252795F9B1007B10F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDFE4C302795F9B1007B10F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDFE4C062795F9AD007B10F2 = {
+			isa = PBXGroup;
+			children = (
+				EDFE4C112795F9AD007B10F2 /* AZTECI-LFAG */,
+				EDFE4C2B2795F9B1007B10F2 /* AZTECI-LFAGTests */,
+				EDFE4C362795F9B1007B10F2 /* AZTECI-LFAGUITests */,
+				EDFE4C102795F9AD007B10F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDFE4C102795F9AD007B10F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDFE4C0F2795F9AD007B10F2 /* AZTECI-LFAG.app */,
+				EDFE4C282795F9B1007B10F2 /* AZTECI-LFAGTests.xctest */,
+				EDFE4C332795F9B1007B10F2 /* AZTECI-LFAGUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDFE4C112795F9AD007B10F2 /* AZTECI-LFAG */ = {
+			isa = PBXGroup;
+			children = (
+				EDFE4C122795F9AD007B10F2 /* AppDelegate.swift */,
+				EDFE4C142795F9AD007B10F2 /* SceneDelegate.swift */,
+				EDFE4C162795F9AD007B10F2 /* ViewController.swift */,
+				EDFE4C182795F9AD007B10F2 /* Main.storyboard */,
+				EDFE4C1E2795F9B1007B10F2 /* Assets.xcassets */,
+				EDFE4C202795F9B1007B10F2 /* LaunchScreen.storyboard */,
+				EDFE4C232795F9B1007B10F2 /* Info.plist */,
+				EDFE4C1B2795F9AD007B10F2 /* AZTECI_LFAG.xcdatamodeld */,
+			);
+			path = "AZTECI-LFAG";
+			sourceTree = "<group>";
+		};
+		EDFE4C2B2795F9B1007B10F2 /* AZTECI-LFAGTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDFE4C2C2795F9B1007B10F2 /* AZTECI_LFAGTests.swift */,
+				EDFE4C2E2795F9B1007B10F2 /* Info.plist */,
+			);
+			path = "AZTECI-LFAGTests";
+			sourceTree = "<group>";
+		};
+		EDFE4C362795F9B1007B10F2 /* AZTECI-LFAGUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDFE4C372795F9B1007B10F2 /* AZTECI_LFAGUITests.swift */,
+				EDFE4C392795F9B1007B10F2 /* Info.plist */,
+			);
+			path = "AZTECI-LFAGUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDFE4C0E2795F9AD007B10F2 /* AZTECI-LFAG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDFE4C3C2795F9B1007B10F2 /* Build configuration list for PBXNativeTarget "AZTECI-LFAG" */;
+			buildPhases = (
+				EDFE4C0B2795F9AD007B10F2 /* Sources */,
+				EDFE4C0C2795F9AD007B10F2 /* Frameworks */,
+				EDFE4C0D2795F9AD007B10F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AZTECI-LFAG";
+			productName = "AZTECI-LFAG";
+			productReference = EDFE4C0F2795F9AD007B10F2 /* AZTECI-LFAG.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDFE4C272795F9B1007B10F2 /* AZTECI-LFAGTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDFE4C3F2795F9B1007B10F2 /* Build configuration list for PBXNativeTarget "AZTECI-LFAGTests" */;
+			buildPhases = (
+				EDFE4C242795F9B1007B10F2 /* Sources */,
+				EDFE4C252795F9B1007B10F2 /* Frameworks */,
+				EDFE4C262795F9B1007B10F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDFE4C2A2795F9B1007B10F2 /* PBXTargetDependency */,
+			);
+			name = "AZTECI-LFAGTests";
+			productName = "AZTECI-LFAGTests";
+			productReference = EDFE4C282795F9B1007B10F2 /* AZTECI-LFAGTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDFE4C322795F9B1007B10F2 /* AZTECI-LFAGUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDFE4C422795F9B1007B10F2 /* Build configuration list for PBXNativeTarget "AZTECI-LFAGUITests" */;
+			buildPhases = (
+				EDFE4C2F2795F9B1007B10F2 /* Sources */,
+				EDFE4C302795F9B1007B10F2 /* Frameworks */,
+				EDFE4C312795F9B1007B10F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDFE4C352795F9B1007B10F2 /* PBXTargetDependency */,
+			);
+			name = "AZTECI-LFAGUITests";
+			productName = "AZTECI-LFAGUITests";
+			productReference = EDFE4C332795F9B1007B10F2 /* AZTECI-LFAGUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDFE4C072795F9AD007B10F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					EDFE4C0E2795F9AD007B10F2 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					EDFE4C272795F9B1007B10F2 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = EDFE4C0E2795F9AD007B10F2;
+					};
+					EDFE4C322795F9B1007B10F2 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = EDFE4C0E2795F9AD007B10F2;
+					};
+				};
+			};
+			buildConfigurationList = EDFE4C0A2795F9AD007B10F2 /* Build configuration list for PBXProject "AZTECI-LFAG" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDFE4C062795F9AD007B10F2;
+			productRefGroup = EDFE4C102795F9AD007B10F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDFE4C0E2795F9AD007B10F2 /* AZTECI-LFAG */,
+				EDFE4C272795F9B1007B10F2 /* AZTECI-LFAGTests */,
+				EDFE4C322795F9B1007B10F2 /* AZTECI-LFAGUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDFE4C0D2795F9AD007B10F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDFE4C222795F9B1007B10F2 /* LaunchScreen.storyboard in Resources */,
+				EDFE4C1F2795F9B1007B10F2 /* Assets.xcassets in Resources */,
+				EDFE4C1A2795F9AD007B10F2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDFE4C262795F9B1007B10F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDFE4C312795F9B1007B10F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDFE4C0B2795F9AD007B10F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDFE4C172795F9AD007B10F2 /* ViewController.swift in Sources */,
+				EDFE4C1D2795F9AD007B10F2 /* AZTECI_LFAG.xcdatamodeld in Sources */,
+				EDFE4C132795F9AD007B10F2 /* AppDelegate.swift in Sources */,
+				EDFE4C152795F9AD007B10F2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDFE4C242795F9B1007B10F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDFE4C2D2795F9B1007B10F2 /* AZTECI_LFAGTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDFE4C2F2795F9B1007B10F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDFE4C382795F9B1007B10F2 /* AZTECI_LFAGUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDFE4C2A2795F9B1007B10F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDFE4C0E2795F9AD007B10F2 /* AZTECI-LFAG */;
+			targetProxy = EDFE4C292795F9B1007B10F2 /* PBXContainerItemProxy */;
+		};
+		EDFE4C352795F9B1007B10F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDFE4C0E2795F9AD007B10F2 /* AZTECI-LFAG */;
+			targetProxy = EDFE4C342795F9B1007B10F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDFE4C182795F9AD007B10F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDFE4C192795F9AD007B10F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDFE4C202795F9B1007B10F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDFE4C212795F9B1007B10F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDFE4C3A2795F9B1007B10F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDFE4C3B2795F9B1007B10F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDFE4C3D2795F9B1007B10F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J2BL46C9JW;
+				INFOPLIST_FILE = "AZTECI-LFAG/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lfag.AZTECI-LFAG";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDFE4C3E2795F9B1007B10F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J2BL46C9JW;
+				INFOPLIST_FILE = "AZTECI-LFAG/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lfag.AZTECI-LFAG";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EDFE4C402795F9B1007B10F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J2BL46C9JW;
+				INFOPLIST_FILE = "AZTECI-LFAGTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lfag.AZTECI-LFAGTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AZTECI-LFAG.app/AZTECI-LFAG";
+			};
+			name = Debug;
+		};
+		EDFE4C412795F9B1007B10F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J2BL46C9JW;
+				INFOPLIST_FILE = "AZTECI-LFAGTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lfag.AZTECI-LFAGTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AZTECI-LFAG.app/AZTECI-LFAG";
+			};
+			name = Release;
+		};
+		EDFE4C432795F9B1007B10F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J2BL46C9JW;
+				INFOPLIST_FILE = "AZTECI-LFAGUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lfag.AZTECI-LFAGUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AZTECI-LFAG";
+			};
+			name = Debug;
+		};
+		EDFE4C442795F9B1007B10F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J2BL46C9JW;
+				INFOPLIST_FILE = "AZTECI-LFAGUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lfag.AZTECI-LFAGUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AZTECI-LFAG";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDFE4C0A2795F9AD007B10F2 /* Build configuration list for PBXProject "AZTECI-LFAG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDFE4C3A2795F9B1007B10F2 /* Debug */,
+				EDFE4C3B2795F9B1007B10F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDFE4C3C2795F9B1007B10F2 /* Build configuration list for PBXNativeTarget "AZTECI-LFAG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDFE4C3D2795F9B1007B10F2 /* Debug */,
+				EDFE4C3E2795F9B1007B10F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDFE4C3F2795F9B1007B10F2 /* Build configuration list for PBXNativeTarget "AZTECI-LFAGTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDFE4C402795F9B1007B10F2 /* Debug */,
+				EDFE4C412795F9B1007B10F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDFE4C422795F9B1007B10F2 /* Build configuration list for PBXNativeTarget "AZTECI-LFAGUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDFE4C432795F9B1007B10F2 /* Debug */,
+				EDFE4C442795F9B1007B10F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EDFE4C1B2795F9AD007B10F2 /* AZTECI_LFAG.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EDFE4C1C2795F9AD007B10F2 /* AZTECI_LFAG.xcdatamodel */,
+			);
+			currentVersion = EDFE4C1C2795F9AD007B10F2 /* AZTECI_LFAG.xcdatamodel */;
+			path = AZTECI_LFAG.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EDFE4C072795F9AD007B10F2 /* Project object */;
+}
